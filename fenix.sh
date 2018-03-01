@@ -20,7 +20,7 @@ function docker_repository {
         software-properties-common
 
     curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
-    
+
     add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
         $(lsb_release -cs) \
         stable" -y
@@ -28,6 +28,8 @@ function docker_repository {
 
 function post_installer {
     usermod -aG docker $USER
+    apm install --packages-file atom_packages.txt
+    echo -e "set nu\nset ts=4\nset bg=dark\nset expandtab" > ~/.vimrc
 }
 
 repositories
