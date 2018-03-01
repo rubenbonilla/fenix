@@ -1,0 +1,13 @@
+MagicPython
+atom-beautify
+autocomplete-python
+busy-signal
+file-icons
+hyperclick
+intentions
+language-docker
+language-gitignore
+language-ini
+linter
+linter-flake8
+linter-ui-default
