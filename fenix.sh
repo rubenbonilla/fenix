@@ -10,6 +10,7 @@ function installer {
         atom \
         vim \
         docker-ce
+    snap install spotify
 }
 
 function docker_repository {
@@ -30,6 +31,13 @@ function post_installer {
     usermod -aG docker $USER
     apm install --packages-file atom_packages.txt
     echo -e "set nu\nset ts=4\nset bg=dark\nset expandtab" > ~/.vimrc
+}
+
+function postman {
+    cd /tmp
+    wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
+    tar -xzfv postman.tar.gz
+    mv Postman /opt/
 }
 
 repositories
