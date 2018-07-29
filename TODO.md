@@ -9,3 +9,7 @@
 # TODO: install vim plugins
 # TODO: install tmux
 # TODO: install source code pro font
+
+# TODO: make a switch case to select an editor
+# TODO: mv vcode/setting.json to $HOME/.config/Code/User/settings.json or try to modify settings file
+# TODO: install vcode dependencies from vcode/vcode_packages.txt

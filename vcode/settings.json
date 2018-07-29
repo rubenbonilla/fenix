@@ -1,0 +1,8 @@
+{
+    "atomKeymap.promptV3Features": true,
+    "editor.formatOnPaste": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Solarized Dark",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true
+}

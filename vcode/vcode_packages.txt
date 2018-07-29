@@ -1,0 +1,2 @@
+ext install ms-vscode.atom-keybindings
+ext install donjayamanne.python-extension-pack
