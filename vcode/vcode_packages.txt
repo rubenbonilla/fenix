@@ -1,2 +1,8 @@
-ext install ms-vscode.atom-keybindings
-ext install donjayamanne.python-extension-pack
+# use it passing each line to code --install-extension
+Braver.vscode-solarized
+ecmel.vscode-html-css
+lonefy.vscode-JS-CSS-HTML-formatter
+ms-python.python
+ms-vscode.atom-keybindings
+pmneo.tsimporter
+xabikos.JavaScriptSnippets
